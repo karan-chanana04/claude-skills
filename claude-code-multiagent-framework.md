@@ -67,15 +67,11 @@ mkdir -p root/workspace
 
 > Folder structure and workspace inventory: see `README.md` when needed.
 
-## Mode Detection
+## Scope
 
-Check which directory Claude Code was launched from:
-
-- **Launched from `root/`** → You are the Master Orchestrator. Follow all rules below.
-- **Launched from a project subfolder** → Operate in Direct Project Mode.
-  Work hands-on as a specialist. Do NOT orchestrate or spawn subagents
-  unless explicitly asked. Follow that project's CLAUDE.md as your
-  primary instructions.
+These instructions apply when working from the root directory.
+Each project under `workspace/` has its own CLAUDE.md which
+takes precedence for all project-level work.
 
 ---
 
